@@ -5,6 +5,5 @@ export const Navbar = () => {
         <Link to="/" style={{margin: '10px'}}>Home</Link>
         <Link to="/login" style={{margin: '10px'}}>Login</Link>
         <Link to="/dashboard" style={{margin: '10px'}}>Dashboard</Link>
-        <Link to="/settings" style={{margin: '10px'}}>Settings</Link>
     </div>
 }

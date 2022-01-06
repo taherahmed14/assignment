@@ -18,11 +18,13 @@ function App() {
 
         <Route path="/dashboard" 
           element={<PrivateRoute><Dashboard /></PrivateRoute>}>
+          
         </Route>
 
-        <Route path="/settings" 
-          element={<PrivateRoute><Settings /></PrivateRoute>}>
+        <Route path="/dashboard/settings" 
+            element={<PrivateRoute><Settings /></PrivateRoute>}>
         </Route>
+
 
         <Route path="*" element={<div>404 User Not found</div>}></Route>
       </Routes>
